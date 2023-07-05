@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Planner4u</title>
+    <!-- CSS Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- Meu CSS  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="corpo-color">
+    <div class="container">
+        <header>
+            <div class="cabecalho text-light mt-3 sombra-letra">Cadastro e login</div>
+            <h1 class="logo text-light mt-4 sombra-letra">Pocket Planner4U</h1>
+        </header>
+        <main class="my-1">
+            <form id="dados" method="post" action="">
+                <div class="row text-light sombra-letra">
+                    <div class="col-md-12 mt-3">
+                        <label for="usuario" class="form-label">Login</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="email" class="placeh" id="usuario" name="usuario"
+                            placeholder="Seulogin@email.com.br">
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <label for="senha" class="form-label sombra-letra">Senha</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="password" class="placeh" id="senha" name="senha" placeholder="Suasenha@">
+                    </div>
+                    <div class="form-check mt-4">
+                        <input type="checkbox" name="conectado" id="conectado" value="1">
+                        <label for="conectado" class="manterconectado sombra-letra">Mantenha-me conectado</label>
+                    </div>
+            </form>
+            <div class="col-md-12 mt-2">
+                <a href="#" class="btn corPink sombra-letra d-flex align-items-center justify-content-center">Entrar</a>
+            </div>
+            <div class="col-md-12 mt-2">
+                <a href="#" class="link sombra-letra ms-3">Esqueceu a senha?</a>
+            </div>
+            <div class="col-md-12">
+                <p class="logar text-first sombra-letra ms-3">Não tem uma conta? <a href="#"
+                        class="link">Cadastre-se</a></p>
+                <p class="logar text-center sombra-letra">ou Logar com</p>
+            </div>
+            <div class="row text-center my-4">
+                <div class="col">
+                    <a href="#"><img class="img-responsive brands"
+                            src="https://s3-alpha-sig.figma.com/img/f752/fe7a/b6a3f6f47661f18aeea0b0d0f5282463?Expires=1688947200&Signature=GDvyHyaI8KQXCtYk5KSyr1dUN2AGXf4vUF370pm0w76pMh5cfaCfS4V0~110EDFp9S-5QTIxGCK~2eLFMvl6v7SPqfTYFrunv0iAT~twF2oIAnwVUZbame8Xif78Pdbq004JPzQQP-uiKlusc8diYXLsGUJEwc2-XBx3wYivZwkm8lmbkny9a-T14HjBHV2GxaPP-muQrZHeUOhG4v7moG~yg5FkDYkmL4avfS-02WQAgVRscLZJ1LX6A2lqVuMuPu547GdItqZoqpWNWdOFJSDJGiTGQMITjeYQYchU2-OeAoEDePQvxMzYtFnURzMEmShZzuo~tK6kCmWPYTcRwg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                            alt="Logo_Facebook"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="img-responsive brands"
+                            src="https://s3-alpha-sig.figma.com/img/f881/84c6/8dee88f348660b174d22c163e0848498?Expires=1688947200&Signature=i7XqhhYOHy9e8os8Z~EBUoUHAA4MQJg6ovESuNyP4nFcSNx3Zhd9yrAP0~IjMQETeIQ06JAEVozio~NrCVotGHsnC~fkFNDY01XSlRVA-oNGKkUkzUHk-~IF39AAzyiNNO-RV46bbJtJHHtnmEoAZeq0eT4iGojme1aJJUF5vUWCgeTrGcicYXwmHLmFSdJJqFYJvppp3qRpC~6Og0v3x3nvQq1ILgCYr7ZBE57DfsxH4W0y-Iezfq54WUH-PGxBupfRvh0DIJWlLW3b2jTXuOLvacb2H4YwDy03haFeVXcDLfElsBKmE50yPD3Cgk2gTALZES1WQFRp1mbLLmk4cQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                            alt="Logo_Google"></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="img-responsive brands"
+                            src="https://s3-alpha-sig.figma.com/img/da10/cd62/d5a0df064781e4f41befe1db170181b0?Expires=1688947200&Signature=RZVwzEnkReWQeIqM1zga0p4B1Qd9qhRGp9vkCFbGEiC71u8OracKYbS7OS550SFPPnX~JJXaemaWrsSLjI8RqxlmfowZln5FYbIuOnLj3C-yPo~Rk4A4V1p8~g3qm1KfQR5X-gHjbSUx-e8xJOdsl1ax9rpBkfoLpOYo92vdIdKbSzFFI17c2tY0BXWoeSnQYj~owqENvVn86TVpaPMx83KwRK28TxqfrWc0T7OgIt2ZX9Iwd~aTfX6j5x7QPdqJbgWHJtdU-ZVv~Qb6soqMtsM2sDO3K4p0HYD~J~bkFhS~xsBAOuI-577Z3q4~M-OG-hQn7tsFQobMDobxcRDbyQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                            alt="Logo_LinkedIn"></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="my-1 text-center">
+                <a class=" link" href="#">Termos de uso e política de privacidade</a>
+            </div>
+        </footer>
+    </div>
+    <!-- Scritp do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
